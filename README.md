@@ -28,3 +28,4 @@ sequenceDiagram
     Nginx-->>K8sAPI: Watch for Secret changes
     K8sAPI-->>Nginx: Notify about updated Secret
     Nginx->>User: Serve HTTPS requests using renewed certificate
+```
